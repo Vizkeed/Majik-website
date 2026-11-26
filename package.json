@@ -1,0 +1,11 @@
+{
+  "name": "majikfingaz-food-villa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Majikfingaz Food Villa website: static HTML, CSS and JavaScript, ready for Cloudflare Pages",
+  "scripts": {
+    "dev": "npx --yes serve public",
+    "deploy": "npx --yes wrangler pages deploy public --project-name majikfingaz-food-villa"
+  },
+  "license": "UNLICENSED"
+}
